@@ -6,7 +6,10 @@ function isAnagram(stringOne, stringTwoo) {
     }
     else if (newString(stringOne) === newString(stringTwoo)) {
         alert('Это анаграммы!')
-    };
+    }
+    else { 
+        alert('Это не анаграммы!')
+    }
 }
 function newString(myString) {
     return myString.toLocaleLowerCase().replace(/[.,?\/#!$%\^&\*;:{}=\-_`~()]/g,"").replace(/\s+/g, '').split('').sort().join('');
