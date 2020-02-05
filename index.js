@@ -1,4 +1,4 @@
-let n = prompt('введите число страниц','');
+let n = prompt('Введите число страниц Вашей книги: ','');
 
 function sum(n) {
     let sum = 0;
@@ -8,4 +8,4 @@ function sum(n) {
     return sum;
   }
   
-  alert( sum(n) );
+  alert('Сумма всех страниц равна: ' + sum(n) );
